@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .logo {
     width: 90px;
 }
@@ -43,7 +47,14 @@ padding-left: 100px
 }
 body {
 	background: #f1fbff;
+    position: relative;
+	padding-bottom: 10px;
+	min-height: 100vh;
 }
+
+/* zaz{
+	position: relative; */
+
 .section-padding {
 	padding: 100px 0;
 }
@@ -187,3 +198,92 @@ body {
 /* Footer */
 
 
+
+.footerr {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.footerNav{
+    margin: 30px 0px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin: 0px 5px;
+
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.margg{
+padding-bottom: 70px;
+margin-bottom: 300px;
+
+}
+
+.margg2{
+	padding-bottom: 130px;
+	margin-bottom: auto;
+}
+
+.margg3{
+	padding-bottom: 700px;
+	margin-bottom: 14px;
+}
